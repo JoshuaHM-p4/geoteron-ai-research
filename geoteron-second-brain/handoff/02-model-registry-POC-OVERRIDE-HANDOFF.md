@@ -1,3 +1,5 @@
+> **Name-safe handoff copy** (2026-09-26). Agency and project-brand names removed per the lead researcher's decision. The internal original in the parent folder remains the source and may be updated; if they differ, the original wins.
+
 # Model registry — POC priority override
 Date: 2026-09-19  
 Parent: 02-model-registry.md  

@@ -1,3 +1,5 @@
+> **Name-safe handoff copy** (2026-09-26). Agency and project-brand names removed per the lead researcher's decision. The internal original in the parent folder remains the source and may be updated; if they differ, the original wins.
+
 # Coworker POC review vs our freeze
 Source: independent review of GEOTERON POC (same product, not another topic)
 Our docs: 01-map · 02-registry · 03-poc-decision-freeze
@@ -21,13 +23,13 @@ Critical scope review of GEOTERON Q4 2026 POC — not a separate product plan.
 
 ## Tensions (review is stricter than our freeze)
 
-> **Historical table.** The "Our freeze" column shows the **old, replaced freeze** (before 2026-09-19). The current freeze (`03-poc-decision-freeze.md`) already adopts the review: Behavioral + Economic only, A vs B only, anonymized external name, qualitative bands.
+> **Historical table.** The "Our freeze" column shows the **old, replaced freeze** (before 2026-09-19). The current freeze (`03-poc-decision-freeze-HANDOFF.md`) already adopts the review: Behavioral + Economic only, A vs B only, anonymized external name, qualitative bands.
 
 | Topic | Our freeze (old, replaced) | Coworker review | Recommendation |
 |-------|------------|-----------------|----------------|
 | Dimensions in POC | Behavioral + Environmental + Economic (+ Societal P1) | **Only Behavioral + Economic**; Env/Ecol → placeholder slide | Consider demoting ENV to P1 *or* keep only ENV-01 water as thin third |
 | Scenarios | Min A,B,C · catalog A–E | **Only A vs B** | Tighten min run to A vs B; keep C as stretch |
-| Site branding | NCC / Pax Silica corridor named | **Generic/anonymized site first**; no Pax Silica in external materials until BCDA contact | Split: internal AOI can stay Capas–Bamban–Mabalacat; **external pitch name = anonymized** until partner conversation |
+| Site branding | Corridor named by project brand | **Generic/anonymized site first**; no project brand in external materials until contact with the development authority | Split: internal AOI can stay Capas–Bamban–Mabalacat; **external pitch name = anonymized** until partner conversation |
 | Uncertainty UX | Monte Carlo intervals | Qualitative high/med/low tied to assumption source | Compatible: show P10/P50/P90 *and* a data-quality band (blueprint-direct vs national-extrapolated) |
 | Verdict on current plan | Executable if cut to P0 stack | “Not fundable as written” if full 5-dim + 5-scenario + confidence UI | Agree: full original vision ≠ POC |
 
@@ -38,5 +40,5 @@ Same product, same risks. Review validates our cuts (ecology deferred, During/Af
 1. POC scorecard = Behavioral (BEH-03) + Economic (ECO-FIN-01) only for “decision.”
 2. ENV-01/02/03 → “appendix / stretch” not decision objectives.
 3. Minimum scenarios = A vs B only; C/D/E = post-demo.
-4. External materials: “Central Luzon industrial district POC” until BCDA engagement.
+4. External materials: “Central Luzon industrial district POC” until engagement with the development authority.
 5. Uncertainty UI: intervals + qualitative assumption band.

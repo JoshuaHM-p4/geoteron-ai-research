@@ -1,3 +1,5 @@
+> **Name-safe handoff copy** (2026-09-26). Agency and project-brand names removed per the lead researcher's decision. The internal original in the parent folder remains the source and may be updated; if they differ, the original wins.
+
 # GEOTERON POC Decision Freeze
 Status: **LOCKED** (tightened to coworker independent review) · 2026-09-19 · re-locked 2026-09-26 after one change (D-011)  
 Prior version: broader 5-KPI / A–E catalog — superseded for Q4 POC execution  
@@ -35,8 +37,8 @@ Scope: Q4 2026 proof — one site · two scenarios · one dimension pair · Befo
 | Context | Rule |
 |---------|------|
 | **Internal engineering** | AOI may use Capas / Bamban / Mabalacat corridor data (Central Luzon). |
-| **External materials / pitch** | Name it a **“Central Luzon industrial district POC”** (or fully anonymized). **Do not use “Pax Silica” or BCDA branding** until there has been a real conversation with BCDA. |
-| **Partner path** | Build → quiet validate with one engineering firm or LGU → then approach BCDA with a working tool, not a named grand challenge. |
+| **External materials / pitch** | Name it a **“Central Luzon industrial district POC”** (or fully anonymized). **Do not use the project brand or the development authority's name** until there has been a real conversation with that authority. |
+| **Partner path** | Build → quiet validate with one engineering firm or LGU → then approach the development authority with a working tool, not a named grand challenge. |
 
 Exact AOI polygon + blueprint still TBD; municipalities/corridor class are enough to start BASE-01 ingest.
 
@@ -150,7 +152,7 @@ Stretch (not blocking): PRES-01 Pareto on O1 vs O4, ENV-* appendix. (UNC-01 move
 
 ## 11. Non-goals checklist
 
-- [ ] No Pax Silica / BCDA name on external decks until real contact  
+- [ ] No project brand or development-authority name on external decks until real contact  
 - [ ] No Environmental/Ecological decision scores  
 - [ ] No C/D/E required for demo  
 - [ ] No During/After real modules  
@@ -166,7 +168,7 @@ Stretch (not blocking): PRES-01 Pareto on O1 vs O4, ENV-* appendix. (UNC-01 move
 | Exact AOI polygon + blueprint | BASE-01 quantities |
 | `budget_cap_php` + unit costs | ECO-FIN-01 / C1 |
 | Trip-rate / mode priors for corridor | BEH-01/02 calibration |
-| Quiet validation partner (eng firm or LGU) | Credibility before any BCDA ask |
+| Quiet validation partner (eng firm or LGU) | Credibility before any ask to the development authority |
 
 ---
 
@@ -174,7 +176,7 @@ Stretch (not blocking): PRES-01 Pareto on O1 vs O4, ENV-* appendix. (UNC-01 move
 
 **LOCKED:** decision §1 · Beh+Econ only · A vs B only · levers L01/L02/L03/L09 · objectives O1+O4 · branding §3 · uncertainty bands §8 · done criteria §10.
 
-Supersedes the earlier proposed freeze that included Env KPIs, A/B/C minimum, and named Pax Silica in the decision framing.
+Supersedes the earlier proposed freeze that included Env KPIs, A/B/C minimum, and named the project brand in the decision framing.
 
 ## Change log
 - **2026-09-26 (D-011):** Freeze unlocked by the lead researcher for one change, then re-locked. §8 and §9 now make the Monte Carlo cost ranges (UNC-01) must-ship, limited to the cost/ROI model (ECO-FIN-01), to match D-010. No other section changed.

@@ -1,3 +1,5 @@
+> **Name-safe handoff copy** (2026-09-26). Agency and project-brand names removed per the lead researcher's decision. The internal original in the parent folder remains the source and may be updated; if they differ, the original wins.
+
 # BASE-01 Ingest Checklist
 AOI class: Central Luzon industrial district POC (Capas · Bamban · Mabalacat corridor)  
 Purpose: Feed BEH-01→03 + ECO-FIN-01 only  
@@ -53,7 +55,7 @@ Status: Ready to execute · 2026-09-19
 | 2.1 | Download Philippines OSM PBF | Geofabrik | https://download.geofabrik.de/asia/philippines.html | Med | [ ] |
 | 2.2 | Extract AOI+buffer roads via OSMnx or osmium | — | lanes, maxspeed, highway class | Med | [ ] |
 | 2.3 | Build directed graph → `base01.road_nodes`, `base01.road_edges` | OSMnx + NetworkX | length_m, freeflow_s | Med | [ ] |
-| 2.4 | Tag SCTEX, MacArthur Highway, known BCDA access roads | Manual / OSM names | Critical corridors | Med | [ ] |
+| 2.4 | Tag SCTEX, MacArthur Highway, known district access roads | Manual / OSM names | Critical corridors | Med | [ ] |
 | 2.5 | Join HDX PH road surface (paved/unpaved) where coverage exists | HDX | https://data.humdata.org/dataset/philippines-road-surface-data | Med | [ ] |
 | 2.6 | QA: connected component count; island edges; null speeds filled with class defaults | — | Document defaults | — | [ ] |
 | 2.7 | Export SUMO network stub (`netconvert` from OSM or edge list) | SUMO | Needed for BEH-03 | Med | [ ] |
@@ -126,7 +128,7 @@ Status: Ready to execute · 2026-09-19
 
 | # | Task | Source | Note | Band | Done |
 |---|------|--------|------|------|------|
-| 7.1 | **Now:** build a labeled stand-in (synthetic) blueprint. **Hold** the BCDA master plan / zoning FOI request until after the quiet validation review (D-002, 07-decision-log.md) | FOI: https://www.foi.gov.ph/agencies/bcda/ | External pitch stays anonymized | High if real | [ ] |
+| 7.1 | **Now:** build a labeled stand-in (synthetic) blueprint. **Hold** the development authority's master plan / zoning FOI request until after the quiet validation review (D-002, 07-decision-log.md) | FOI: https://www.foi.gov.ph/ (agency page) | External pitch stays anonymized | High if real | [ ] |
 | 7.2 | Ingest zoning / parcel / proposed industrial polygon | — | Versioned | High | [ ] |
 | 7.3 | Diff blueprint vs Open Buildings (existing vs proposed) | — | Story for A vs B | — | [ ] |
 
