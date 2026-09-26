@@ -4,7 +4,24 @@
 **Date:** 2026-09-26
 **Status:** Active handoff (name-safe, revised 2026-09-26; reading list points to name-safe copies in `handoff/`)
 
-## Context in one paragraph
+## Scope status (D-015, 2026-09-26)
+A franchise scope has been reported but is not confirmed (draft in `08-new-scope-franchise-draft.md`). The locked freeze (`03`) is unchanged. Items below are infrastructure-only and are now **Beyond POC / later**. Nothing was deleted. Everything not listed stays as it is and could carry over to the franchise scope (not confirmed).
+
+**Note:** this brief is also on hold under D-013 until the scope change is confirmed.
+
+**Beyond POC / later (infrastructure-only):**
+- Context paragraph.
+- Track A known gaps (jobs, traffic counts, construction costs, blueprint).
+- Track B traffic validation and the four checklist limits. Cost-estimate accuracy could carry over.
+- Track D trip and freight rates. Cost benchmarks could carry over.
+- Later / background: infrastructure competitors, engineering validation partners, ecological sources (whole section).
+- Week-1 read-out dataset list, where it follows `05` Phases 1–4. The template format could carry over.
+
+**Open:** the project name is still open in `08`.
+
+---
+
+## Context in one paragraph · **Beyond POC / later (infrastructure-only, D-015)**
 GEOTERON is an infrastructure decision-intelligence system: it simulates development scenarios and compares trade-offs, with every number traceable to its data, assumptions, and model. The proof of concept (POC) is locked to a narrow scope: a Central Luzon industrial district (the Capas–Bamban–Mabalacat corridor), two scenarios (A = Baseline, B = High industrial growth), and only two scored dimensions: **Behavioral** (traffic/mobility) and **Economic** (cost/ROI). The LLM never generates numbers; models do. Your research feeds the data and evidence those models stand on.
 
 **Read first (in this order):**
@@ -73,7 +90,7 @@ Joshua picks the models; you find the numbers they need.
 
 **Deliverable:** A table of candidate values with source, year, location, and how comparable it is to our corridor (High / Medium / Low).
 
-## Later / background (only after A–C)
+## Later / background (only after A–C) · **Beyond POC / later (infrastructure-only, D-015)**
 - **Prior art & competitors:** who sells scenario/planning tools for infrastructure, what they do, and what users criticise.
 - **Validation partner map:** engineering firms, universities, or LGUs in Central Luzon who might quietly review our method.
 - **Ecological data sources (ECOL-00):** habitat, protected areas, land cover for the AOI. Not scored in the POC, but needed later.

@@ -95,5 +95,37 @@
 
 ---
 
+## D-013 — Co-researcher handoff on hold (2026-09-26)
+- **Decision:** **Hold the co-researcher handoff** (the brief `06`, the `handoff/` pack, and the cover message) until the reported scope change is confirmed.
+- **Context:** A word-of-mouth scope change was reported on 2026-09-26: franchises only (stores, restaurants, etc.) instead of infrastructure, and a before-and-after construction data scope. The freeze currently limits the POC to the before phase only, so "before and after" would add the after phase. Not yet confirmed in writing.
+- **Options considered:** Hold the handoff (chosen) / Send with a caution note / Send as is.
+- **Changes made:** None to the freeze or any other note. Freeze stays locked; cover message stays unsent.
+
+---
+
+## D-014 — Recording the reported scope change (2026-09-26)
+- **Decision:** **Start a separate new-scope note now** and leave the freeze untouched.
+- **Options considered:** Log it as pending and wait for written confirmation / Start a new scope note now (chosen) / Unlock and amend the freeze now.
+- **Changes made:** New note `08-new-scope-franchise-draft.md`, marked "Draft, pending written confirmation". It holds only the two known points (franchises only; before and after construction) and lists everything else as open questions. Freeze and all other notes unchanged.
+
+---
+
+## D-015 — Relabel infrastructure-only work (2026-09-26)
+- **Decision:** **Relabel infrastructure-only work as "Beyond POC / later" now**, while the freeze stays untouched.
+- **Options considered:** Keep it as is and run a read-only impact check / Keep it as is and check nothing yet / Relabel infrastructure-only work now (chosen).
+- **Basis:** Scope Guard's read-only impact check against `08` (`/workspace/geoteron-scope/franchise-impact-2026-09-26.md`). The four active levers are industrial floor area, employment density, freight trip share and capex intensity, all infrastructure-only.
+- **Changes made:** Added a "Scope status (D-015)" block to `01`, `02`, `02` override, `04`, `05`, `06` and the `handoff/` copies of `02` override, `04` and `05`, listing only the items marked infrastructure-only. Tagged the wholly infrastructure-only sections (`01` §4; `02` Behavioral section, BEH-01 to BEH-03 and PRES-01; `05` Phases 2 and 7 and the optional appendix; `06` context and later tracks). "Could carry over" items unchanged. Nothing deleted. Freeze (`03`, `handoff/03`) and `08` untouched.
+- **Side effect:** the locked freeze still describes the infrastructure scope until the new scope is confirmed.
+
+---
+
+## D-016 — How to confirm the franchise scope (2026-09-26)
+- **Decision:** **Joshua answers the open questions he already knows first**; a confirmation request then covers the rest.
+- **Options considered:** Draft a confirmation request now / Answer what I know first (chosen) / Wait for them to send it.
+- **Changes made:** `08` gained an "Answers per Joshua, unconfirmed" section with his answers to questions 1–5 (CEO set the change on Sep 19; Central Luzon area still applies; same project; franchising companies as buyers, validated by the companies, stakeholders and industrial economists or analysts; the POC validates whether a franchise should start at a specific location). Questions 6–12 stay open. Freeze and all other notes unchanged.
+
+---
+
 ## Open (pending decision)
-- None.
+- Reported scope change (franchises only; before and after construction): awaiting written confirmation. Draft in `08`.
+- Franchise scope questions 6–12 (scenarios, levers, scoring, before/after, data, models, existing work): Joshua answering one at a time; the rest go into a confirmation request.

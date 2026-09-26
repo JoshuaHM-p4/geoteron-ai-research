@@ -4,6 +4,16 @@ Parent: 02-model-registry.md
 Reason: Freeze tightened to coworker review (Beh + Econ, A vs B)  
 Updated: 2026-09-26 (D-010: UNC-01 must-ship, cost/ROI only)
 
+## Scope status (D-015, 2026-09-26)
+A franchise scope has been reported but is not confirmed (draft in `08-new-scope-franchise-draft.md`). The locked freeze (`03`) is unchanged. Items below are infrastructure-only and are now **Beyond POC / later**. Nothing was deleted. Everything not listed stays as it is and could carry over to the franchise scope (not confirmed).
+
+**Beyond POC / later (infrastructure-only):**
+- BEH-01, BEH-02, BEH-03 wherever they appear in the lists below (P0 list, must-ship list, confidence-label list).
+- DIAG-01 traffic-side one-lever-at-a-time sweeps over L01, L02, L03, L09.
+- ECO-FIN-01 infrastructure inputs (blueprint quantities, L09, infrastructure unit costs). UNC-01 cost ranges, the confidence rule and the cost side of DIAG-01 could carry over.
+
+---
+
 ## Still P0 for POC demo
 BASE-01, BEH-01, BEH-02, BEH-03, ECO-FIN-01, DIAG-01, **UNC-01 (cost/ROI only, D-010)**  
 LLM-01 before external eng review

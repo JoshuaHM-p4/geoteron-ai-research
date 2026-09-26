@@ -5,6 +5,16 @@ Source: independent review of GEOTERON POC (same product, not another topic)
 Our docs: 01-map · 02-registry · 03-poc-decision-freeze
 Updated: 2026-09-19
 
+## Scope status (D-015, 2026-09-26)
+A franchise scope has been reported but is not confirmed (draft in `08-new-scope-franchise-draft.md`). The locked freeze (`03`) is unchanged. Items below are infrastructure-only and are now **Beyond POC / later**. Nothing was deleted. Everything not listed stays as it is and could carry over to the franchise scope (not confirmed).
+
+**Beyond POC / later (infrastructure-only):**
+- This whole note, as a historical review of the infrastructure POC.
+
+**Could carry over:** its principles (provenance on every number, no bare-percentage confidence, keep the POC thin).
+
+---
+
 ## What it is
 Critical scope review of GEOTERON Q4 2026 POC — not a separate product plan.
 

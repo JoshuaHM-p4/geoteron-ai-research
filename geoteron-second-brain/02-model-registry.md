@@ -4,6 +4,22 @@ Governing notes: `03-poc-decision-freeze.md` (LOCKED) · `02-model-registry-POC-
 This version **incorporates the override** (priorities, D-005, D-006, D-010, D-011). The override file is kept; if the two ever differ, the override wins.  
 The previous five-dimension registry (2026-09-19) is summarized under "Beyond POC / later" at the bottom.
 
+## Scope status (D-015, 2026-09-26)
+A franchise scope has been reported but is not confirmed (draft in `08-new-scope-franchise-draft.md`). The locked freeze (`03`) is unchanged. Items below are infrastructure-only and are now **Beyond POC / later**. Nothing was deleted. Everything not listed stays as it is and could carry over to the franchise scope (not confirmed).
+
+**Beyond POC / later (infrastructure-only):**
+- BEH-01 Trip Generation, BEH-02 Destination + Mode Choice, BEH-03 Traffic Simulation (the whole Behavioral section).
+- PRES-01 Pareto search on O1 vs O4.
+- ENV-01 / ENV-02 / ENV-03 unscored appendix.
+- DIAG-01 traffic side (lever sweeps). The cost side could carry over.
+- LLM-01 `run_traffic_simulation` tool. The rest of LLM-01 could carry over.
+- ECO-FIN-01 inputs: stand-in blueprint quantities, capex intensity (L09), infrastructure unit costs, budget cap C1. The model form could carry over.
+- Scorecard Behavioral row.
+
+**Note:** AFTER-01 already sits in Beyond POC / later and becomes relevant if the draft's after phase is confirmed.
+
+---
+
 ## How to read this
 | Field | Meaning |
 |-------|---------|
@@ -63,7 +79,7 @@ POC: Central Luzon industrial district POC (internal AOI: Capas · Bamban · Mab
 ### DIAG-02 — SHAP explainability · Optional
 Only if an XGBoost model sits on the critical path (e.g. a BEH-01 alternative). Then it becomes must-ship for that model. Output: `{model_id, prediction, base_value, shap[{feature, value, shap}]}`.
 
-### PRES-01 — Pareto search on O1 vs O4 · Optional
+### PRES-01 — Pareto search on O1 vs O4 · Optional · **Beyond POC / later (infrastructure-only, D-015)**
 | | |
 |--|--|
 | **Target** | Small Pareto set of configurations |
@@ -85,9 +101,9 @@ Only if an XGBoost model sits on the critical path (e.g. a BEH-01 alternative). 
 
 ---
 
-# Behavioral (O4)
+# Behavioral (O4) · **Beyond POC / later (infrastructure-only, D-015)**
 
-### BEH-01 — Trip Generation · Must-ship
+### BEH-01 — Trip Generation · Must-ship · **Beyond POC / later (infrastructure-only, D-015)**
 | | |
 |--|--|
 | **Target** | Zone productions/attractions (home-based work, other, freight) |
@@ -98,7 +114,7 @@ Only if an XGBoost model sits on the critical path (e.g. a BEH-01 alternative). 
 | **Confidence output** | High/Medium/Low label |
 | **Output schema** | `{zone_id, purpose, produced, attracted, scenario_id, confidence}` |
 
-### BEH-02 — Destination + Mode Choice · Must-ship
+### BEH-02 — Destination + Mode Choice · Must-ship · **Beyond POC / later (infrastructure-only, D-015)**
 | | |
 |--|--|
 | **Target** | OD matrix + mode shares |
@@ -108,7 +124,7 @@ Only if an XGBoost model sits on the critical path (e.g. a BEH-01 alternative). 
 | **Confidence output** | High/Medium/Low label |
 | **Output schema** | `{origin, dest, mode, trips, generalized_cost, confidence}` |
 
-### BEH-03 — Network Assignment + Traffic Simulation (SUMO) · Must-ship
+### BEH-03 — Network Assignment + Traffic Simulation (SUMO) · Must-ship · **Beyond POC / later (infrastructure-only, D-015)**
 | | |
 |--|--|
 | **Target** | Mean travel time, speed, VKT, congestion index (O4) |

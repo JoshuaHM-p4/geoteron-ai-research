@@ -3,6 +3,22 @@ Updated: 2026-09-26 (rewritten to match the locked freeze, D-008)
 Previous version (2026-09-19) described the full five-dimension vision; that content now lives in "Beyond POC / later" at the bottom.  
 Governing notes: `03-poc-decision-freeze.md` (LOCKED) · `02-model-registry.md` · `07-decision-log.md`
 
+## Scope status (D-015, 2026-09-26)
+A franchise scope has been reported but is not confirmed (draft in `08-new-scope-franchise-draft.md`). The locked freeze (`03`) is unchanged. Items below are infrastructure-only and are now **Beyond POC / later**. Nothing was deleted. Everything not listed stays as it is and could carry over to the franchise scope (not confirmed).
+
+**Beyond POC / later (infrastructure-only):**
+- Product line "infrastructure decision intelligence for land / infrastructure developers" (Product).
+- The POC one-liner as written: the industrial district corridor with scenarios A (Baseline) and B (High industrial growth). The area is open in `08`.
+- Levers L01 industrial floor area, L02 employment density, L03 freight trip share, L09 capex intensity.
+- Objective O4 travel time / congestion.
+- §2 traffic-side lever sweeps. §3 Behavioral pipeline (trip generation, mode choice, SUMO). §4 Pareto search on O1 vs O4 (whole section). §5 `run_traffic_simulation` tool.
+- Stack: SUMO, OSMnx road graph, pymoo O1-vs-O4 search.
+- Open gaps: AOI blueprint, freight and trip priors. Unit costs are partly infrastructure-only.
+
+**Note:** the "AFTER" lifecycle item already sits in Beyond POC / later. It is the one item the draft's after-construction phase would pull back in if confirmed.
+
+---
+
 ## Product
 **GEOTERON**: infrastructure decision intelligence for land / infrastructure developers.  
 Principle: **the LLM wraps the analytical system; it does not replace it.**
@@ -48,7 +64,7 @@ Decision: descriptive work uses essentially no ML. Ingest steps are in `05-base-
 
 Freight trips for B enter as a Low-confidence placeholder until research fills them (`05` row 6.4, D-007).
 
-## 4. Prescriptive — which configuration to advance?
+## 4. Prescriptive — which configuration to advance? · **Beyond POC / later (infrastructure-only, D-015)**
 The POC answer is a **static A vs B comparison**. Optional: PRES-01 searches L01–L03–L09 within bounds for a small Pareto on **O1 vs O4 only** (freeze §6). No hidden weighting.
 
 ## 5. LLM layer (LLM-01)

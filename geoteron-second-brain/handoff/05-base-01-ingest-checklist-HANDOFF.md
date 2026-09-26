@@ -5,6 +5,24 @@ AOI class: Central Luzon industrial district POC (Capas · Bamban · Mabalacat c
 Purpose: Feed BEH-01→03 + ECO-FIN-01 only  
 Status: Ready to execute · 2026-09-19
 
+## Scope status (D-015, 2026-09-26)
+A franchise scope has been reported but is not confirmed (draft in `08-new-scope-franchise-draft.md`). The locked freeze (`03`) is unchanged. Items below are infrastructure-only and are now **Beyond POC / later**. Nothing was deleted. Everything not listed stays as it is and could carry over to the franchise scope (not confirmed).
+
+**Beyond POC / later (infrastructure-only):**
+- Phase 1 study-area boundary as written (the area is open in `08`).
+- Phase 2 road network and SUMO network stub (whole phase).
+- 3.5 industrial zones, 3.6 blueprint.
+- 4.6 jobs proxy, 4.7 scenario B multipliers.
+- 5.4 road / building / utility unit costs, 5.6 budget cap, 5.7 L01 / L09 capex formulas.
+- Phase 6 mobility calibration, including 6.4 freight. 6.3 calibration honesty file could carry over.
+- Phase 7 blueprint / zoning request (whole phase).
+- Phase 8 road-graph limit. The QA gate format could carry over, and the population limit carries over only if the area stays.
+- Optional appendix (DEM, flood).
+
+**Carry over only if the area stays:** 3.1–3.4 building footprints and intensity, 4.1–4.5 population.
+
+---
+
 ## How to use
 - Check boxes in order within each phase.
 - Every layer needs a **provenance row** (source, URL, as-of date, license, CRS, resolution, coverage %).
@@ -48,7 +66,7 @@ Status: Ready to execute · 2026-09-19
 
 ---
 
-## Phase 2 — Road network (BEH critical path)
+## Phase 2 — Road network (BEH critical path) · **Beyond POC / later (infrastructure-only, D-015)**
 
 | # | Task | Source | Link / note | Band | Done |
 |---|------|--------|-------------|------|------|
@@ -124,7 +142,7 @@ Status: Ready to execute · 2026-09-19
 
 ---
 
-## Phase 7 — Zoning / blueprint (unblock High band)
+## Phase 7 — Zoning / blueprint (unblock High band) · **Beyond POC / later (infrastructure-only, D-015)**
 
 | # | Task | Source | Note | Band | Done |
 |---|------|--------|------|------|------|
@@ -169,7 +187,7 @@ Parallel: build the labeled stand-in blueprint (Phase 7, row 7.1) early. **Hold*
 
 ---
 
-## Optional appendix (not decision path)
+## Optional appendix (not decision path) · **Beyond POC / later (infrastructure-only, D-015)**
 
 Only if spare time — do **not** block Beh+Econ:
 
