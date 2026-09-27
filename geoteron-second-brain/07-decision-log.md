@@ -126,6 +126,36 @@
 
 ---
 
+## D-017 — When the franchise brief goes to the co-researcher (2026-09-26)
+- **Decision:** **Finish the open items in `09`, then hand it over.** This replaces the D-013 hold for the franchise brief.
+- **Context:** The CEO confirmed summary points 1–4 and 8 of the franchise scope and sent no corrections. Points 5–7 (scenarios, levers, scoring) are Joshua's decisions (`08`, "CEO confirmation").
+- **Options considered:** Finish open items, then hand over (chosen) / Hand over now / Wait for the cost and return answer.
+- **Changes made:** `09` status now reads "hand over once the open items are finished". BEH-01 to BEH-03 and the foot-traffic data (`05` item 6.1) are marked in franchise scope in `08` and `09` only. Their D-015 tags in `01`, `02`, the override, `05` and `handoff/` are unchanged. `06`, the infrastructure `handoff/` pack and the old cover message stay unchanged and do not go out. Freeze (`03`) untouched.
+
+---
+
+## D-018 — Franchise reading list for the co-researcher (2026-09-26)
+- **Decision:** **Build a new franchise reading list** from `08`, `09`, and only the carry-over parts of the other notes.
+- **Options considered:** New franchise reading list (chosen) / Current pack plus a change note / Only `08` and `09` to start.
+- **Changes made:** `09` "Read first" now lists `08`, `09`, the carry-over data layers in `handoff/05` (items 3.1–3.4, 4.1–4.5, 5.1–5.3, 5.5, 6.1), the carry-over model sections in `02` (BASE-01, ECO-FIN-01 form, UNC-01, DIAG-01 cost side, LLM-01 without the traffic tool, BEH-01 to BEH-03, AFTER-01), and the "Uncertainty outputs" section of `handoff/02` override. It also lists what not to read. All listed files were checked for agency and brand names. No new handoff copies were made.
+
+---
+
+## D-019 — Who writes the franchise brief cover message (2026-09-26)
+- **Decision:** **Second Brain drafts the cover message inside `09`.** Joshua edits it and sends it himself.
+- **Options considered:** Chair drafts it, Joshua edits and sends / Second Brain drafts it in `09` (chosen) / Joshua writes it himself.
+- **Changes made:** `09` gained a "Cover message (DRAFT ONLY)" section. It uses the name "Central Luzon industrial district POC", points to the "Read first" list, and names the three open research items: what cost and return should measure, franchise data sources, and post-opening data. It is marked not sent. `09` status now reads "ready for Joshua's review". `06`, the old handoff pack and the freeze (`03`) are unchanged.
+
+---
+
+## D-020 — How the co-researcher gets the notes (2026-09-27)
+- **Decision:** **The co-researcher gets the full notes repo by git clone, as is.** Joshua accepted that the repo includes the infrastructure notes (`01`–`06`) and the agency name. The "Read first" and "do not read" lists in `09` steer the reading.
+- **Options considered:** Clean franchise folder / Send the reading-list files directly / Full repo as is (chosen).
+- **Changes made:** None to the notes. The name-safe rule still applies to anything the co-researcher writes. Clone after the latest sync to Joshua's computer is confirmed, so the co-researcher gets `09` with the cover message.
+
+---
+
 ## Open (pending decision)
-- Reported scope change (franchises only; before and after construction): awaiting written confirmation. Draft in `08`.
-- Franchise scope questions 6–12 (scenarios, levers, scoring, before/after, data, models, existing work): Joshua answering one at a time; the rest go into a confirmation request.
+- Franchise brief and cover message: Joshua reviews, edits and sends them himself (`09`).
+- Cost and return definition for a franchise: not recorded whether the CEO answered it (`08`, question 2).
+- Infrastructure notes (`01`–`05`) after confirmation: keep as Beyond POC / later, archive, or rewrite. Not decided.
